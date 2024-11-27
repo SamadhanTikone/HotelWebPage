@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&family=Merienda:wght@300..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.room{
+
+
+    background: url("https://images.pexels.com/photos/18285961/pexels-photo-18285961/free-photo-of-interior-of-a-luxurious-bedroom.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+.main-home{
+    background: url("https://images.pexels.com/photos/27626166/pexels-photo-27626166/free-photo-of-a-living-room-with-a-couch-coffee-table-and-television.jpeg");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    inset:1;
+}
+
+.kings{
+    
+    font-family: 'Century Schoolbook Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+      
+}
+
+.best-place{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.top{
+    top: calc(20vh);
+}
