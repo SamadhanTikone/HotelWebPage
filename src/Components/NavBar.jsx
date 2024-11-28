@@ -72,7 +72,7 @@ export default function NavBar() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-[#8456f7] mx-4" : ` text-white mx-4`
+              isActive ? "text-[#8456f7] mx-4 font-semibold" : ` text-white mx-4 font-semibold`
             }
             onClick={handleNav}
           
@@ -82,7 +82,7 @@ export default function NavBar() {
           <NavLink
             to="/bookRooms"
             className={({ isActive }) =>
-              isActive ? "text-[#8456f7] mx-4" : ` text-white mx-4 `
+              isActive ? "text-[#8456f7] mx-4" : ` text-white mx-4 font-semibold`
             }
             onClick={handleNav}
             

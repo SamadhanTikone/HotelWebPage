@@ -38,8 +38,8 @@ export default function SectionBImg() {
        <h2 className="md:text-3xl text-xl font-semibold best-place tracking-normal mb-3 text-[#8456f7] ">Luxury Interior</h2>
        <p className="md:text-lg w-full  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo recusandae odio repudiandae culpa mollitia tenetur ipsa officia fugiat doloribus, natus omnis ex deserunt modi quo porro ipsum nemo exercitationem totam aut provident, dolore ea distinctio? Voluptate animi numquam ullam facere veniam repellat, maxime asperiores labore nihil expedita magnam magni alias?</p>
        </div>
-      <div className="md:bg-[#85A98F] w-[30%] md:-mt-[12%] right-[2%]  lg:-top-[12%] md:bottom-[12%] md:h-[50vh] lg:h-[80vh] absolute"></div>
-      <div className="md:border-[#A8CD89] w-[30%] md:border-2 md:-mt-[12%] right-[12%] md:h-[50vh] lg:-bottom-[10%]  md:top-[12%] lg:h-[80vh] absolute"></div>
+      <div className="md:bg-[#85A98F] w-[30%] md:-mt-[12%] right-[2%]  lg:-top-[12%] md:bottom-[12%] md:h-[50vh] xl:h-[80vh] lg:h-[60vh] absolute"></div>
+      <div className="md:border-[#A8CD89] w-[30%] md:border-2 md:-mt-[12%] right-[12%] md:h-[50vh] lg:-bottom-[10%]  md:top-[12%] lg:h-[60vh] xl:h-[80vh] absolute"></div>
 
        
        <img src="https://images.pexels.com/photos/2565222/pexels-photo-2565222.jpeg" alt="" 
