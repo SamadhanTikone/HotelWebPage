@@ -65,7 +65,7 @@ export default function NavBar() {
         <div
           className={`flex uppercase flex-col gap-6 font-semibold lg:flex-row lg:block 
              ${open
-              ? "block  text-white absolute w-full top  z-30  bg-[#384049] py-7  text-centre justify-centre items-center left-0   "
+              ? "block  text-white absolute w-[40vh] h-screen top  z-30  bg-[#384049] py-7  text-centre justify-centre items-center left-0   "
               : "hidden"
           }  `}
         >
