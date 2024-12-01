@@ -9,11 +9,13 @@ import About from './Components/About.jsx'
 import BookARoom from './Components/BookARoom.jsx'
 import Contact from './Components/Contact.jsx'
 import Meals from './Components/Meals.jsx'
+import Error from './Components/Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Layout/>,
+    errorElement:<Error/>,
     children:[
       {
         path:"",
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
         element: <About/>
       },
       {
-        path:"/bookRooms",
+        path:"/bookARoom",
         element:<BookARoom/>
       },
       {
