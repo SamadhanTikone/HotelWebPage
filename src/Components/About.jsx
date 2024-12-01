@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <div className="bg-[#384049] h-screen md:m-6 m-2 p-4 md:p-0 rounded-lg ">
+    <div className="bg-[#384049] h-full md:m-6 m-2 p-4 md:p-0 rounded-lg ">
       <div className="flex flex-col justify-center w-full gap-10 items-center">
         
         <p className="md:text-6xl text-3xl  md:mt-28 font-bold font-times ">The Kings Garden</p>
