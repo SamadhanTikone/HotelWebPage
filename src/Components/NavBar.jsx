@@ -49,7 +49,7 @@ export default function NavBar() {
   }
 
   function handleClick(){
-    navigate("/bookARooms")
+    navigate("/bookARoom")
   }
   function handleHome(){
     navigate("/")
@@ -80,7 +80,7 @@ export default function NavBar() {
             Home
           </NavLink>
           <NavLink
-            to="/bookARooms"
+            to="/bookARoom"
             className={({ isActive }) =>
               isActive ? "text-[#8456f7] mx-4" : ` text-white mx-4 font-semibold`
             }
