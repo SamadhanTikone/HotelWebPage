@@ -49,7 +49,7 @@ export default function NavBar() {
   }
 
   function handleClick(){
-    navigate("/bookRooms")
+    navigate("/bookARooms")
   }
   function handleHome(){
     navigate("/")
