@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-col flex-1 md:justify-center   md:py-24 mt-10 md:mt-0 py-0  items-center">
 
 
-            <h1 className=" sm:text-7xl  text-4xl leading-relaxed text-white opacity-100 mb-5 font-bold  w-full md:w-auto lg:p-5 p-2 mx-3 uppercase  "><span className="block sm:text-5xl md:mb-2 text-[#8456f7] ">Hotel</span> <span className="inline opacity-100 font-times px-2 border-b-2  md:border-b-4 lg:shadow-custom-glow lg:py-2 lg:px-6 rounded-2xl ">The Kings <span className="  sm:ml-0"> Garden</span></span></h1>
+            <h1 className=" sm:text-7xl  text-4xl leading-relaxed text-white opacity-100 mb-5 font-bold  w-full md:w-auto lg:p-5 sm:p-2 mx-3 uppercase  "><span className="block sm:text-5xl md:mb-2 text-[#8456f7] ">Hotel</span> <span className="inline opacity-100 font-times px-2 border-b-2  md:border-b-4 lg:shadow-custom-glow lg:py-2 lg:px-6 rounded-2xl ">The Kings <span className="  sm:ml-0"> Garden</span></span></h1>
 
 
 

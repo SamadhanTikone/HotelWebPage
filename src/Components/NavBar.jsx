@@ -7,6 +7,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
 import CloseIcon from "@mui/icons-material/Close";
+// import TemporaryDrawer from "./Drawer";
 // import { ThemeContext } from "./Context/ThemeProvider";
 
 export default function NavBar() {
@@ -42,6 +43,7 @@ export default function NavBar() {
   function handleNav(){
     if (menu && open){
       setOpen(!open)
+     
     }
     else{
       setMenu(!menu)
@@ -65,10 +67,11 @@ export default function NavBar() {
         <div
           className={`flex uppercase flex-col gap-6 font-semibold lg:flex-row lg:block 
              ${open
-              ? "block  text-white absolute w-[40vh] h-screen top  z-30  bg-[#384049] py-7  text-centre justify-centre items-center left-0   "
+              ? "block  text-white absolute  w-[40vh] h-screen top  z-30  bg-[#384049] py-7  text-centre justify-centre items-center left-0   "
               : "hidden"
           }  `}
         >
+          {/* {open &&  <TemporaryDrawer/>} */}
           <NavLink
             to="/"
             className={({ isActive }) =>
