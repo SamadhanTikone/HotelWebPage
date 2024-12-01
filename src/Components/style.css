@@ -36,5 +36,6 @@
 }
 
 .top{
-    top: calc(15vh);
+    top: 12vh;
+    position: absolute;
 }
