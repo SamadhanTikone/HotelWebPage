@@ -14,7 +14,7 @@ export default function Home() {
 
   function handleNavigate() {
 
-      navigate("/bookRooms")
+      navigate("/bookARoom")
     
 
   }
