@@ -17,7 +17,7 @@ export default function Contact() {
     setTimeout(()=>{
       setSubmit(true);
 
-      toast.success(`${name} Successfully Submitted!`)
+      toast.success(`${name} Your From is Successfully Submitted!`)
     },1000)
     
   
