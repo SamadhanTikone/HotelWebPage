@@ -80,7 +80,7 @@ export default function NavBar() {
             Home
           </NavLink>
           <NavLink
-            to="/bookRooms"
+            to="/bookARooms"
             className={({ isActive }) =>
               isActive ? "text-[#8456f7] mx-4" : ` text-white mx-4 font-semibold`
             }
