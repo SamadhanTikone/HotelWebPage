@@ -25,7 +25,7 @@ export default function Home() {
       <div className=" main-home  text-black md:h-[80%] h-[70vh]  md:mx-6 m-2  rounded-lg  ">
 
 
-        <div className=" h-full  flex  rounded-lg  bg-opacity-40 bg-black inset-0   ">
+        <div className=" h-full  flex  rounded-lg  bg-opacity-60 bg-black inset-0   ">
 
 
           <div className="flex flex-col flex-1 md:justify-center   md:py-24 mt-10 md:mt-0 py-0  items-center">
