@@ -68,10 +68,10 @@ export default function Meals() {
       {isClicked && selectedMeal && (
         <div className="mt-6 p-4 border rounded-lg shadow-lg text-center">
           <p onClick={handleClose} className="absolute text-4xl cursor-pointer"><ArrowBackIcon /></p>
-          <h2 className="text-4xl py-4 font-bold">{selectedMeal.strMeal}</h2>
-          <p className="w-[60%] py-6 text-center mt-0 m-auto">{selectedMeal.strInstructions}</p>
+          <h2 className="md:text-4xl text-2xl py-4 font-bold">{selectedMeal.strMeal}</h2>
+          <p className="md:w-[60%] w-[80%] py-6 text-center mt-0 m-auto">{selectedMeal.strInstructions}</p>
           <img
-            className="mt-4 rounded-lg w-1/2 h-96  m-auto"
+            className="mt-4 rounded-lg md:w-1/2 md:h-96 md:p-4  p-2 m-auto"
             src={selectedMeal.strMealThumb}
             alt={selectedMeal.strMeal}
           />
