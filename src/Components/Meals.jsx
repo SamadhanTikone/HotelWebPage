@@ -22,6 +22,7 @@ export default function Meals() {
           setIsClicked(false)
         } else {
           setRecipe([]);
+          
         }
         setIsLoading(false);
       })
@@ -85,14 +86,14 @@ export default function Meals() {
         <div className="flex flex-wrap text-white justify-center gap-6">
           {isLoading &&
             [...Array(15)].map((_, index) => (
-              <div className="flex md:w-64 lg:w-72 flex-col gap-4" key={index}>
-                <div className="skeleton h-32 w-full"></div>
+              <div className="flex md:w-64 lg:w-72 w-80 flex-col gap-4" key={index}>
+                <div className="skeleton md:h-32 h-48  w-full"></div>
                 <div className="skeleton h-4 w-28"></div>
                 <div className="skeleton h-4 w-full"></div>
                 <div className="skeleton h-4 w-full"></div>
               </div>
             ))}
-          {recipe.length > 0 &&
+          {recipe.length > 0 ?
             recipe.map((meal, index) => (
               <div
                 key={index}
@@ -119,7 +120,11 @@ export default function Meals() {
                   </button>
                 </div>
               </div>
-            ))}
+            ))
+            
+            : <p className="text-xl ">Enter Correct data</p>
+
+            }
         </div>
       )}
     </div>
