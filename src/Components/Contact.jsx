@@ -43,7 +43,7 @@ export default function Contact() {
          ) : ( 
           <form
             action=""
-            className=" flex justify-center md:p-4 items-center p-2 flex-col  "
+            className=" flex justify-center text-white md:p-4 items-center p-2 flex-col  "
             onSubmit={handleSubmit}
           >
             {/* {submit &&  } */}
@@ -64,7 +64,7 @@ export default function Contact() {
                   onChange={(e) => {
                     setName(e.target.value);
                   }}
-                  className=" py-2 px-4 text-md rounded-lg w-full text-black"
+                  className=" py-2 px-4 text-md rounded-lg bg-white w-full text-black"
                 />
               </div>
               <div className="md:w-1/2">
@@ -76,7 +76,7 @@ export default function Contact() {
                   id="lname"
                   placeholder="eg. Wick"
                   required
-                  className=" py-2 px-4 text-md rounded-lg w-full text-black"
+                  className=" py-2 px-4 text-md rounded-lg bg-white w-full text-black"
                 />
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Contact() {
                   id="email"
                   placeholder="eg.jhonwick@gmail.com"
                   required
-                  className="py-2 px-4 text-md rounded-lg w-full text-black"
+                  className="py-2 px-4 text-md rounded-lg bg-white w-full text-black"
                 />
               </div>
               <div className="md:w-1/2 inline">
@@ -103,7 +103,7 @@ export default function Contact() {
                   id="mobile"
                   placeholder="eg.9389282989"
                   required
-                  className=" py-2 px-4 text-md rounded-lg w-full text-black"
+                  className=" py-2 px-4 text-md rounded-lg bg-white w-full text-black"
                 />
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                 cols={8}
                 rows={6}
                 placeholder="eg. I am a Jhon Wick "
-                className=" text-lg py-2 p-4 rounded-lg w-full text-black"
+                className=" text-lg py-2 p-4 rounded-lg w-full text-black bg-white"
               />
             </div>
             <button className="py-2 px-8 my-8 bg-[#8456f7] rounded-lg text-md active:scale-95 transition-all duration-300 ">
